@@ -1,0 +1,9 @@
+print "What is your name?",
+name = raw_input()
+print "How old are you?",
+age = raw_input()
+print "Which languge are you learning now?",
+lang = raw_input()
+
+print "So, your name is %r, you're %r old,now you're learning %r" % (name,age,lang)
+
